@@ -170,6 +170,12 @@ int8_t user_i2c_write(uint8_t reg_addr, const uint8_t *data, uint32_t len, void 
     id = *((struct identifier *)intf_ptr);
 
     buf = malloc(len + 1);
+    // @add
+    // =====>    
+    if (NULL == buf) {
+        return BME280_E_COMM_FAIL;
+    }
+    // <=====
     buf[0] = reg_addr;
     memcpy(buf + 1, data, len);
     // @chg
