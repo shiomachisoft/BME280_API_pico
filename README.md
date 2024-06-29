@@ -1,11 +1,16 @@
+English website:  
+https://sites.google.com/view/shiomachisoft/english-home  
+Japanese website:  
+https://sites.google.com/view/shiomachisoft/%E3%83%9B%E3%83%BC%E3%83%A0  
+  
 Bosch's BME280_SensorAPI was ported to Raspberry Pi Pico.(using C and pico-sdk, I2C)  
 Version:BME280_SensorAPI-bme280_v3.5.1  
   
 **1.How to use**  
   
-Please set the following user-dependent settings in pico_userspace.h  
+Please set the following user-dependent settings in bme280_pico.h  
 
-// I2C Config  
+// [pico I2C config]   
 #define BME280_USER_I2C_ID      i2c0         // i2c0 or i2c1  
 #define BME280_USER_I2C_SDA     8            // GP number of SDA pin  
 #define BME280_USER_I2C_SCL     9            // GP number of SCL pin  
