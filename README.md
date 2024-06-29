@@ -1,4 +1,4 @@
-This is a port of Bosch's BME280_SensorAPI to Raspberry Pi Pico.(using C and pico-sdk, I2C)  
+Bosch's BME280_SensorAPI was ported to Raspberry Pi Pico.(using C and pico-sdk, I2C)  
 Version:BME280_SensorAPI-bme280_v3.5.1  
   
 1.How to use  
