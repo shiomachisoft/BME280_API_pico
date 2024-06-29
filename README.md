@@ -1,7 +1,7 @@
 Bosch's BME280_SensorAPI was ported to Raspberry Pi Pico.(using C and pico-sdk, I2C)  
 Version:BME280_SensorAPI-bme280_v3.5.1  
   
-1.How to use  
+**1.How to use**  
   
 Please set the following user-dependent settings in pico_userspace.h  
 
@@ -18,7 +18,7 @@ Please set the following user-dependent settings in pico_userspace.h
 #define BME280_USER_SLAVE_ADDR  BME280_I2C_ADDR_PRIM    
   
   
-2.In your app, do the following  
+**2.In your app, do the following**  
   (See sample_main.c)  
   
 (1) include "bme280/bme280_pico.h"  
@@ -29,11 +29,11 @@ Please set the following user-dependent settings in pico_userspace.h
 
 (4) The list of Bosch API functions is in bme280.h.    
   
-3.Execution result of sample_main.c.  
+**3.Execution result of sample_main.c.**  
   
 ![image](https://github.com/shiomachisoft/BME280_API_pico/assets/172953847/daba6c32-7da9-486e-b786-7eaba6f6c6fa)
 
-4.license    
+**4.license**    
   
 Please check the Bosch's repository.  
 https://github.com/boschsensortec/BME280_SensorAPI
