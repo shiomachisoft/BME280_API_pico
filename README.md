@@ -1,8 +1,3 @@
-English website:  
-https://sites.google.com/view/shiomachisoft/english-home  
-Japanese website:  
-https://sites.google.com/view/shiomachisoft/%E3%83%9B%E3%83%BC%E3%83%A0  
-  
 Bosch's BME280_SensorAPI was ported to Raspberry Pi Pico.(using C and pico-sdk, I2C)  
 Version:BME280_SensorAPI-bme280_v3.5.1  
   
